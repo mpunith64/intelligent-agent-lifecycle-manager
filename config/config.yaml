@@ -1,0 +1,9 @@
+heartbeat:
+  interval_seconds: 5
+  timeout_seconds: 15
+  monitoring_interval_seconds: 5
+
+monitoring:
+  enabled: true
+  log_events: true
+  max_events: 1000

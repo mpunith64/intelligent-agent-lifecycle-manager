@@ -7,3 +7,9 @@ prometheus-client
 pytest
 httpx
 pyyaml
+fastapi
+uvicorn[standard]
+pydantic
+pyyaml
+pytest
+httpx
