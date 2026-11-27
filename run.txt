@@ -1,1 +1,16 @@
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+.\venv\Scripts\Activate.ps1
+
+
+python -m uvicorn app.main:app --reload
+
+Phase	Description	Status
+1	Project Setup & FastAPI Controller	✅ Completed
+2	Agent Heartbeat & Health Monitoring	✅ Completed*
+3	Agent Session Management & Job Scheduling	⏳ Pending
+4	Graceful Agent Draining	⏳ Pending
+5	Automated Agent Upgrades	⏳ Pending
+6	Rolling Agent Upgrades	⏳ Pending
+7	Failure Recovery & Rollback	⏳ Pending
+8	Monitoring Dashboard & GitHub Actions Runner Integration	⏳ Pending
